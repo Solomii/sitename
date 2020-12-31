@@ -8,6 +8,24 @@ body {
   min-width: 1020px;
 }
 
+main {
+  /* font-size: 0; */
+  background-color: #f8eedf;
+  /* text-align: center; */
+}
+
+footer {
+  background: #3a2c25;
+}
+
+.more_link {
+  color: #336699;
+  font-weight: 700;
+  text-decoration: none;
+  padding-left: 4px;
+  letter-spacing: -0.4px;
+}
+
 .sitename_header_section_one {
   display: flex;
   justify-content: space-between;
@@ -68,6 +86,126 @@ body {
 }
 
 .sitename_header_section_three {
+  background: #deccaa;
+  border-bottom: solid 3px #bba67b;
+}
+
+.sitename_header_section_three_box {
+  display: flex;
+  padding: 40px;
+  background: #deccaa;
+}
+.sitename_header_section_three_box_img {
+  background: #3a2c25;
   display: flex;
   justify-content: space-between;
+  border-radius: 8px;
+}
+
+.sitename_header_section_three_welcome {
+  padding: 10px;
+  width: 600px;
+}
+
+.sitename_header_section_three_welcome_title {
+  margin-top: 25px;
+  margin-bottom: 13px;
+
+  font-size: 21px;
+  letter-spacing: 0.09rem;
+  color: #297f90;
+}
+
+.sitename_header_section_three_welcome_text {
+  color: #fff;
+}
+
+.sitename_header_section_three_img {
+  padding: 10px;
+}
+/* 
+.sitename_header_section_three_bottom {
+  background: #297f90;
+  color: #fff;
+} */
+
+/* MAIN */
+.sitename_main {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.sitename_main_section_left {
+  /* display: flex; */
+  width: 600px;
+  border-right: 1px solid #fff7ea;
+  vertical-align: top;
+  text-align: left;
+  /* padding: 47px 0 50px; */
+}
+
+.sitename_main_title {
+  margin-bottom: 13px;
+  font-size: 21px;
+  letter-spacing: 0.09rem;
+  color: #297f90;
+}
+
+.sitename_main_blog_title {
+  font-size: 28px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #333333;
+}
+
+.sitename_main_time_comments {
+  color: #cc9933;
+  font-family: Merriweather, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 0.04rem;
+  padding: 6px 0 11px;
+}
+
+.sitename_main_time_comments_num {
+  display: inline-block;
+}
+
+.sitename_main_time_comments_post_text {
+  max-width: 600px;
+  padding: 8px 0 28px;
+  font-family: verdana, sans-serif;
+  font-size: 12px;
+  line-height: 1.55em;
+}
+
+.sitename_main_time_comments_post_button {
+  color: #fff;
+  background-color: #3a2c25;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* FOOTER */
+.sitename_footer_section_one {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 5px;
+}
+.sitename_footer_section_one_title {
+  font-size: 20px;
+  letter-spacing: 0.09rem;
+  padding-bottom: 24px;
+  color: #297f90;
+}
+
+.sitename_footer_section_two {
+  background: #297f90;
+  color: #fff;
+  text-align: center;
+}
+
+.sitename_footer_section_two_text {
+  padding: 20px 5px;
 }
